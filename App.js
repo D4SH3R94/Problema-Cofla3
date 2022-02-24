@@ -7,7 +7,7 @@ class Aplicaciones{
         this.estado = false;
     }infoApp(){
         return document.write(`
-        Peso: ${this.weight} megabytes<br>
+        Peso: ${this.weight} mb<br>
         Cantidad de Descargas: ${this.cantidadDeDescarga} millones<br>
         Puntuacion: ${this.rating} estrellas<br><br></br>`)
     }instalarApp(){
@@ -37,4 +37,4 @@ clashOfClan.infoApp();
 clashOfClan.instalarApp();
 clashOfClan.openApp();
 clashOfClan.openApp();
-clashOfClan.instalarApp();
+clashOfClan.instalarApp(); 
